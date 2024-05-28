@@ -28,4 +28,7 @@ int main() {
 	bool isFirstPlayerTurn = true;
 	history.addTurn(isFirstPlayerTurn, "HIT", 'j', 2);
 	history.writeHistory("test_history.txt");
+
+	Game game;
+	game.startGame();
 }
